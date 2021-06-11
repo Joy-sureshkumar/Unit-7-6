@@ -18,8 +18,8 @@ function multiply () {
     negative = !negative
     number1 = Math.abs(number2)
   }
-  if(number2 < 0) {
-    
+  if (number2 < 0) {
+  
   }
 
   for (counter = 0; counter < number1; counter++) {
