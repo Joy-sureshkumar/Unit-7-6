@@ -19,7 +19,7 @@ function multiply () {
     number1 = Math.abs(number1)
   }
   if (number2 < 0) {
-      negative = !negative
+    negative = !negative
     number2= Math.abs(number2)
   }
 
