@@ -16,10 +16,11 @@ function multiply () {
 
   if (number1 < 0) {
     negative = !negative
-    number1 = Math.abs(number2)
+    number1 = Math.abs(number1)
   }
   if (number2 < 0) {
-  
+      negative = !negative
+    number2= Math.abs(number2)
   }
 
   for (counter = 0; counter < number1; counter++) {
